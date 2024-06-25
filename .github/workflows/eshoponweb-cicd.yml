@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-eshoponweb-rooge
-  LOCATION: East US
+  LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: cbdaf4a9-0fd5-44a4-b857-6b8a88138b73
   WEBAPP-NAME: eshoponweb-webapp-rooge
